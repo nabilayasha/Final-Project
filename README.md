@@ -111,9 +111,16 @@ baby %>%
 
 c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 ```R
+Kesimpulannya adalah Perbandingan hasil perhitungan nilai exactnya dan nilai simulasi tidak signifikan
 ```
 d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
 ```R
+bayi = 4.5
+l == bayi 
+rataan <- l
+rataan
+varian <- l
+varian
 ```
 
 # 4
