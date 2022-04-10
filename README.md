@@ -52,14 +52,36 @@ p = 0.2
 # 2
 2a. Peluang terdapat 4 pasien yang sembuh
 ```R
+x = 4
+size = 20
+prob = 0.2
+dbinom(x = 4, size = 20, prob = 0.2)
 ```
 
 2b. Gambarkan grafik histogram berdasarkan kasus tersebut.
 ```R
+library(dplyr)
+library(ggplot2)
+
+data.frame(x = 0:10, prob = dbinom(x = 0:10, size = n, prob = p)) %>%
+  mutate(pasien = ifelse(x == X, X, "lainnya")) %>%
+ggplot(aes(x = factor(x), y = prob, fill = pasien)) +
+  geom_col() +
+  geom_text(
+    aes(label = round(prob,2), y = prob + 0.01),
+    position = position_dodge(0.9),
+    size = 3,
+    vjust = 0
+  ) +
+  labs(title = "Peluang 4 pasien sembuh", x = "Sembuh", y = "Peluang") 
 ```
 
 2c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
 ```R
+n = 20
+p = 0.2
+rerata = n*p
+varian = n*p*(1-p)
 ```
 
 # 3
