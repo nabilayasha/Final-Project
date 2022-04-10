@@ -19,7 +19,42 @@ geometrik acak tersebut X = 3
 ```
 
 # 2
+2a. Peluang terdapat 4 pasien yang sembuh
+```R
+```
+
+2b. Gambarkan grafik histogram berdasarkan kasus tersebut.
+```R
+```
+
+2c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
+```R
+```
 
 # 3
+a. Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?
+```R
+```
+b. simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama
+setahun (n = 365)
+```R
+```
+c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
+```R
+```
+d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
+```R
+```
 
 # 4
+a. Fungsi Probabilitas dari Distribusi Chi-Square.
+```R
+```
+
+b. Histogram dari Distribusi Chi-Square dengan 100 data random.
+```R
+```
+
+c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square
+```R
+```
