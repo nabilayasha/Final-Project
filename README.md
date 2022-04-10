@@ -9,8 +9,8 @@ sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaks
 dgeom(x=3, prob=0.20)
 ```
 
-1b.mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi
-geometrik acak tersebut X = 3 ( distribusi geometrik acak () == 3 )
+1b. Mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribusi
+geometrik acak tersebut X = 3
 ```R
 ```
 
