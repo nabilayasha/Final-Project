@@ -119,12 +119,16 @@ d. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
 # 4
 a. Fungsi Probabilitas dari Distribusi Chi-Square.
 ```R
+dchisq(x = 2,df = 10)
 ```
 
 b. Histogram dari Distribusi Chi-Square dengan 100 data random.
 ```R
+hist(rchisq(100, v))
 ```
 
 c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square
 ```R
+v=10
+2*v
 ```
