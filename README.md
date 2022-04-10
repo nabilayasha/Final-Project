@@ -89,11 +89,26 @@ varian = n*p*(1-p)
 # 3
 a. Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?
 ```R
+dpois(6, 4.5)
 ```
 b. simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama
 setahun (n = 365)
 ```R
+set.seed(2)
+baby <- data.frame('prob' = rpois(365, 4.5))
+
+baby %>%
+  ggplot() + geom_histogram(aes(x = prob, 
+  y = stat(count / sum(count)), 
+  fill = prob == 6), binwidth = 1, color = 'black',) +
+  scale_fill_manual(values = c("#FFCC66", "#669933")) +
+  scale_x_continuous(breaks = 0:10) +
+  labs(x = 'Angka bayi lahir per periode', y = 'Proporsi bayi lahir', title = 'Simulasi kelahiran 6 bayi dalam setahun') +
+  theme_bw()
 ```
+![image](https://user-images.githubusercontent.com/74358409/162614664-da0cd6c0-7559-4549-9b51-74b521e1b9cf.png)
+
+
 c. dan bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 ```R
 ```
