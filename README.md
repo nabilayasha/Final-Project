@@ -75,6 +75,8 @@ ggplot(aes(x = factor(x), y = prob, fill = pasien)) +
   ) +
   labs(title = "Peluang 4 pasien sembuh", x = "Sembuh", y = "Peluang") 
 ```
+Grafik Histogram:
+![image](https://user-images.githubusercontent.com/74358409/162613759-7d32502f-5f5f-41a6-aba3-d4310b443085.png)
 
 2c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
 ```R
