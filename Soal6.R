@@ -5,3 +5,7 @@ z = rnorm(n, mean, sd)
 plot(z)
 
 hist(z, breaks = 50, main="5025201139_Nabila Zakiyah Khansa' Machrus_Probstat_D_DNhistogram")
+
+sd = 8
+varian = sd * sd
+varian
