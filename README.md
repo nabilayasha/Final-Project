@@ -142,15 +142,38 @@ v=10
 # 5
 a. Fungsi Probabilitas dari Distribusi Exponensia
 ```R
-
+set.seed(1)
+rexp(3)
+[1] 0.7551818 1.1816428 0.1457067
 ```
 b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
 ```R
-
+hist(rexp(10))
+hist(rexp(100))
+hist(rexp(1000))
+hist(rexp(10000))
 ```
+data = 10
+![image](https://user-images.githubusercontent.com/74358409/174013005-d12cb60d-a289-4301-8dcd-663b06e19439.png)
+
+data = 100
+![image](https://user-images.githubusercontent.com/74358409/174013161-bb12740d-9daa-4153-9252-95b4c9c2b858.png)
+
+data = 1000
+![image](https://user-images.githubusercontent.com/74358409/174013212-9c61c1aa-c5a5-434d-b54d-fc0286c97c91.png)
+
+data = 10000
+![image](https://user-images.githubusercontent.com/74358409/174013268-8909266e-9914-45cd-bdb1-9f4b85b653f7.png)
+
 c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
 ```R
-
+lamda <- 3
+rataan <- 1 / lamda
+rataan
+[1] 0.3333333
+varian <- 1 / (lamda * lamda)
+varian
+[1] 0.1111111
 ```
 
 # 6
