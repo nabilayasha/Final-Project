@@ -179,13 +179,23 @@ varian
 # 6
 a. Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik. 
 ```R
-
+mean = 50
+sd = 8
+n = 100
+z = rnorm(n, mean, sd)
+plot(z)
 ```
+![image](https://user-images.githubusercontent.com/74358409/174017228-a9d23974-a6ad-43b1-8730-b5369055203f.png)
+
+
 b. Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
     5025201139_Nabila Zakiyah Khansa' Machrus_Probstat_D_DNhistogram
 ```R
-
+hist(z, breaks = 50, main="5025201139_Nabila Zakiyah Khansa' Machrus_Probstat_D_DNhistogram")
 ```
+![no6](https://user-images.githubusercontent.com/74358409/174017413-3296d90e-897c-4a7f-9c31-fab4bdc603cb.png)
+
+
 c. Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 ```R
 
