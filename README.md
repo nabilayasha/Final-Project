@@ -198,6 +198,9 @@ hist(z, breaks = 50, main="5025201139_Nabila Zakiyah Khansa' Machrus_Probstat_D_
 
 c. Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 ```R
-
+sd = 8
+varian = sd * sd
+varian
+[1] 64
 ```
-
+Varian distribusi normal : 64
