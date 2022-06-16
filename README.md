@@ -139,3 +139,32 @@ c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Chi-Square
 v=10
 2*v
 ```
+# 5
+a. Fungsi Probabilitas dari Distribusi Exponensia
+```R
+
+```
+b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+```R
+
+```
+c. Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Exponensial untuk n = 100 dan λ = 3
+```R
+
+```
+
+# 6
+a. Fungsi Probabilitas dari Distribusi Normal P(X1 ≤ x ≤ X2), hitung Z-Score Nya dan plot data generate randomnya dalam bentuk grafik. 
+```R
+
+```
+b. Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
+    5025201139_Nabila Zakiyah Khansa' Machrus_Probstat_D_DNhistogram
+```R
+
+```
+c. Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
+```R
+
+```
+
